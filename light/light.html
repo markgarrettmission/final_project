@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Principles of Photography</title>
+    <script src="https://kit.fontawesome.com/803b9e77d6.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/CSS/styles.css">
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>Principles of Photography</h1>
+        </header>
+        <div class="topnav" id="myTopnav">
+            <a href="/index.html">Home</a>
+            <a href="/composition/composition.html">Composition</a>
+            <a href="/light/light.html" class="active">Light</a>
+            <a href="/technical/technical.html">Technical</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        <h2 class="main-heading">Light</h2>
+        <section id="composition_cards">
+            <div class="principle">
+                <div class="principle_image"><img src="/img/images_large/light_contrast_1000x1000.jpg" alt="Contrast">
+                </div>
+                <h5 class="principle_tagline">Contrast</h5>
+                <div class="principle_summary">
+                    Higher contrast = higher drama.
+                </div>
+                <div><a href="#">Check it out!</a></div>
+            </div>
+            <div class="principle">
+                <div class="principle_image"><img src="/img/light_small.jpg" alt="Direction of light">
+                </div>
+                <h5 class="principle_tagline">Direction</h5>
+                <div class="principle_summary">
+                    The direction of light can reveal or hide texture.
+                </div>
+                <div> <a href="#">Check it out!</a></div>
+            </div>
+            <div class="principle">
+                <div class="principle_image"><img src="/img/images_large/light_color1000x1000.jpg" alt="Color of light">
+                </div>
+                <h5 class="principle_tagline">Color</h5>
+                <div class="principle_summary">
+                    The color of light can change the mood of an image.
+                </div>
+                <div> <a href="#">Check it out!</a></div>
+            </div>
+        </section>
+        <footer>
+            Copyright &copy; 2023 Mark Garrett
+        </footer>
+    </div>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</body>
+</html>

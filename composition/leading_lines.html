@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Principles of Photography</title>
+    <script src="https://kit.fontawesome.com/803b9e77d6.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/CSS/styles.css">
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>Principles of Photography</h1>
+        </header>
+        <div class="topnav" id="myTopnav">
+            <a href="/index.html">Home</a>
+            <a href="/composition/composition.html" class="active">Composition</a>
+            <a href="/light/light.html">Light</a>
+            <a href="/technical/technical.html">Technical</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        <div class="main-grid">
+            <nav class="box left-nav">
+                <ul>
+                    <li><a href="#" class="active">Leading Lines</a></li>
+                    <li><a href="#">Horizontal/Vertical</a></li>
+                    <li><a href="#">Aspect Ratios</a></li>
+                    <li><a href="#">Horizons</a></li>
+                    <li><a href="#">Balance</a></li>
+                    <li><a href="#">Symmetry</a></li>
+                </ul>
+            </nav>
+            <div class="box main-header">
+                <h2>Leading Lines</h2>
+            </div>
+            <div class="box main-text">
+                <h3>Information</h3>
+                <ul>
+                    <li>Leading lines are vectors or lines that draw the viewer's eye a certain direction or to a
+                        certain
+                        point in the composition.</li>
+                    <li>They can point to a focal point in an image.</li>
+                    <li>They can be formed by existing lines in the scene result from your position relative to the
+                        focal
+                        point or object you want to emphasize.</li>
+                    <li>It doesn't have to be a literal line. I can be elements lines up to suggest a line.</li>
+                    <li>Diagonal lines can add energy and sometimes tension to an image.</li>
+                </ul>
+                <!-- <p>Leading lines are vectors or lines that draw the viewer's eye a certain direction or to a certain
+                    point in the composition.</p>
+                <p>They can point to a focal point in an image.</p>
+                <p>They can be formed by existing lines in the scene result from your position relative to the focal
+                    point or object you want to emphasize.</p>
+                <p>It doesn't have to be a literal line. I can be elements lines up to suggest a line.</p>
+                <p>Diagonal lines can add energy and sometimes tension to an image.</p> -->
+            </div>
+            <div class="box main-images">
+                <h3>Example</h3>
+                <img src="/img/images_large/leading_lines_large.jpg" alt="Leading Lines">
+            </div>
+        </div>
+        <footer>
+            Copyright &copy; 2023 Mark Garrett
+        </footer>
+    </div>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</body>
+
+</html>

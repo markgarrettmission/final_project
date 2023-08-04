@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Principles of Photography</title>
+    <script src="https://kit.fontawesome.com/803b9e77d6.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="/CSS/styles.css">
+<body>
+    <div id="wrapper">
+    <header>
+        <h1>Principles of Photography</h1>
+    </header>
+    <div class="topnav" id="myTopnav">
+        <a href="/index.html">Home</a>
+        <a href="/composition/composition.html">Composition</a>
+        <a href="/light/light.html">Light</a>
+        <a href="/technical/technical.html"  class="active">Technical</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    <h2 class="main-heading">Technical</h2>
+    <section id="composition_cards">
+        <div class="principle">
+            <div class="principle_image"><img src="/img/technical1_800x800.jpg" alt="The Camera"></div>
+            <h5 class="principle_tagline">The Camera</h5>
+            <div class="principle_summary">
+                Get to know the parts of your camera, so you can use it as an extension of your vision.
+            </div>
+            <div><a href="#">Check it out!</a></div>
+        </div>
+        <div class="principle">
+            <div class="principle_image"><img src="/img/images_large/controls_1000x1000.jpg" alt="Camera Settings">
+            </div>
+            <h5 class="principle_tagline">Camera Settings</h5>
+            <div class="principle_summary">
+               There are a lot of camera settings, but there are a few that are mor important.
+            </div>
+            <div> <a href="#">Check it out!</a></div>
+        </div>
+        <div class="principle">
+            <div class="principle_image"><img src="/img/images_large/lenses1000x1000.jpg" alt="Lenses"></div>
+            <h5 class="principle_tagline">Lenses</h5>
+            <div class="principle_summary">
+                The right lens can make all the difference.
+            </div>
+            <div> <a href="#">Check it out!</a></div>
+        </div>     
+    </section>
+    <footer>
+        Copyright &copy; 2023 Mark Garrett
+    </footer>
+</div>
+<script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
+</body>
+</html>
